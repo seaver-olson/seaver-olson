@@ -1,5 +1,5 @@
-<h1 align="center">Hi ⊂(◉‿◉)つ Seaver Olson</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center">Hi ⊂(◉‿◉)つ  I'm Seaver Olson</h1>
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seaver-olson&label=Profile%20views&color=0e75b6&style=flat" alt="seaver-olson" /> </p>
 
