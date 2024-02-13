@@ -4,11 +4,9 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seaver-olson&label=Profile%20views&color=0e75b6&style=flat" alt="seaver-olson" /> </p>
 
 
-- 🔭 I’m currently working on [Led monitor backlights](https://github.com/seaver-olson/MonitorBacklight)
+- 🔭 I’m currently working on [Personal Java Research for Comp271](https://github.com/seaver-olson/javaLearning)
 
-- 🌱 I’m currently learning **Machine Learning and C**
-
-- 🤝 I’m looking for help with [LED monitor backlights](https://github.com/seaver-olson/MonitorBacklight)
+- 🌱 I’m currently learning **Java and C**
 
 - 📫 How to reach me **sjolson007@gmail.com**
 
