@@ -4,9 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seaver-olson&label=Profile%20views&color=0e75b6&style=flat" alt="seaver-olson" /> </p>
 
 
-- 🔭 I’m currently working on [Personal Java Research for Comp271](https://github.com/seaver-olson/javaLearning)
-
-- 🌱 I’m currently learning **Java and C**
+- 🔭 I’m currently working on a [Multi-Threaded Socket-Based FTP Application](https://github.com/seaver-olson/javaLearning)
 
 - 📫 How to reach me **sjolson007@gmail.com**
 
