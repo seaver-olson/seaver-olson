@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seaver-olson&label=Profile%20views&color=0e75b6&style=flat" alt="seaver-olson" /> </p>
 
 
-- 🔭 I’m currently working on a [Pi-based Experiementation and Exploratition for Noobs OS]([https://github.com/seaver-olson/javaLearning](https://github.com/seaver-olson/PEENOS))
+- 🔭 I’m currently working on a PEENOS, check it out if you have a raspberry-pi sitting around
 
 - 📫 How to reach me **sjolson007@gmail.com**
 
