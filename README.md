@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seaver-olson&label=Profile%20views&color=0e75b6&style=flat" alt="seaver-olson" /> </p>
 
 
-- 🔭 I’m currently working on a PEENOS, check it out if you have a raspberry-pi sitting around
+- 🔭 I’m currently working on a few emulated systems like the chip8 system.
 - I'm also researching low-level systems and ways to emulate these systems. You can see some of my work scattered around my repos
 
 - 📫 How to reach me **sjolson007@gmail.com**
