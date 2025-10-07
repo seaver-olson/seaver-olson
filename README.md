@@ -1,6 +1,6 @@
 <h1 align="center">Seaver Olson</h1>
 
-<p>I like plants</p>
+<p align="center">I like plants</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seaver-olson&label=Profile%20views&color=0e75b6&style=flat" alt="seaver-olson" /> </p>
 <p align="left">
