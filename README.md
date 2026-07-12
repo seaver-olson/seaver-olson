@@ -16,7 +16,7 @@
 
 ---
 
-## Current expedition
+## Current project
 
 I am extending **gem5's x86 full-system simulator with Intel VMX support**, building the architectural machinery needed to model hypervisor-aware systems. My work lives where instruction semantics, privilege boundaries, simulated hardware, and operating systems meet.
 
@@ -59,12 +59,9 @@ architectural behavior we can inspect
   </tr>
 </table>
 
-## Forest floor
+## Plants
 
-I am interested in the parts of a computer that ordinary software gets to forget: page tables, privilege levels, trap paths, device state, instruction semantics, and the contracts between hardware and software.
-
-Outside the machine, I also like **plants**: complicated systems with excellent power management.
-
+I will add pictures of my plants here soon!
 ~~~text
 hardware → architecture → virtualization → kernel → userspace
                  ↑ the interesting layers are down here
