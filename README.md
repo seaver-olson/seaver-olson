@@ -62,9 +62,5 @@ architectural behavior we can inspect
 ## Plants
 
 I will add pictures of my plants here soon!
-~~~text
-hardware → architecture → virtualization → kernel → userspace
-                 ↑ the interesting layers are down here
-~~~
 
 <p align="center"><sub>Built from plain Markdown, GitHub-safe HTML, and one repository-owned SVG.</sub></p>
