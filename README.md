@@ -1,66 +1,30 @@
-<p align="center">
-  <img src="./assets/forest-header.svg" width="100%" alt="Seaver Olson - Loyola Chicago systems researcher">
-</p>
+# Seaver Olson
 
-<p align="center">
-  <strong>Computer science student at Loyola University Chicago</strong><br>
-  Computer architecture · Virtualization · Operating systems · Simulation
-</p>
+Computer science at Loyola Chicago. I’m interested in the uncomfortable parts of
+systems work: privilege boundaries, machine state, and what actually happens
+between an instruction and the hardware it is meant to describe.
 
-<p align="center">
-  <a href="https://github.com/seaver-olson/gem5-vmx">gem5-vmx</a> ·
-  <a href="https://github.com/seaver-olson/VeriVerto">VeriVerto</a> ·
-  <a href="https://github.com/seaver-olson/archspec">archspec</a> ·
-  <a href="https://github.com/seaver-olson/PEENOS">PEENOS</a>
-</p>
+Right now I’m adding Intel VMX support to gem5. The work has reached the useful
+stage: a small 64-bit guest can enter VMX operation, launch, take a few selected
+VM exits, resume, and hand control back to the host.
 
----
+```text
+host ── VM entry ──> guest
+  ^                    │
+  └────── VM exit ─────┘
+```
 
-## Current project
+## On the bench
 
-I am extending **gem5's x86 full-system simulator with Intel VMX support**, building the architectural machinery needed to model hypervisor-aware systems. My work lives where instruction semantics, privilege boundaries, simulated hardware, and operating systems meet.
+| Project | What I’m doing there |
+| --- | --- |
+| [gem5-vmx](https://github.com/seaver-olson/gem5-vmx) | Intel VMX for gem5’s x86 full-system simulator. |
+| [VeriVerto](https://github.com/seaver-olson/VeriVerto) | A five-stage RV32I processor in Verilog: hazards, forwarding, branches, and some experimental cache work. |
+| [archspec](https://github.com/seaver-olson/archspec) | An early C++ library for gathering structured information about a Linux machine. |
+| [PEENOS](https://github.com/seaver-olson/PEENOS) | A small bare-metal ARMv8 operating system for a Raspberry Pi 3B. |
 
-~~~text
-guest software
-    ↓
-VMX transitions + privileged state
-    ↓
-gem5 x86 full-system simulation
-    ↓
-architectural behavior we can inspect
-~~~
+## Elsewhere
 
-## Systems I am growing
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/seaver-olson/gem5-vmx">gem5-vmx</a></h3>
-      Intel VMX support for gem5, enabling virtualization-aware x86 full-system simulation.
-      <br><br><code>C++</code> <code>x86</code> <code>VMX</code> <code>simulation</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/seaver-olson/VeriVerto">VeriVerto</a></h3>
-      An RV32I processor built in Verilog for exploring pipelines and architectural behavior.
-      <br><br><code>Verilog</code> <code>RISC-V</code> <code>CPU design</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/seaver-olson/archspec">archspec</a></h3>
-      A C++ library for hardware and software introspection across the system boundary.
-      <br><br><code>C++</code> <code>introspection</code> <code>systems</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/seaver-olson/PEENOS">PEENOS</a></h3>
-      An AArch64 Raspberry Pi operating-system exploration, close to the metal.
-      <br><br><code>AArch64</code> <code>Raspberry Pi</code> <code>bare metal</code>
-    </td>
-  </tr>
-</table>
-
-## Plants
-
-I will add pictures of my plants here soon!
-
-<p align="center"><sub>Built from plain Markdown, GitHub-safe HTML, and one repository-owned SVG.</sub></p>
+I read architecture manuals for fun, keep too many browser tabs open while
+debugging, and grow plants. The plants are generally more forgiving than the
+simulator.
