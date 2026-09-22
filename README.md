@@ -2,15 +2,8 @@
 
 Computer science at Loyola Chicago. I’m interested in computer architecture, HPC and virtualization.
 
-Right now I’m adding Intel VMX support to gem5. The work has reached the useful
-stage: a small 64-bit guest can enter VMX operation, launch, take a few selected
-VM exits, resume, and hand control back to the host.
+Right now I’m adding Intel VMX support to gem5. The project has progressed from individual VMX instructions to a functional virtualization lifecycle. A small 64-bit guest can enter VMX operation, launch, execute in VMX non-root mode, trigger selected VM exits, resume, and eventually return control to the host.
 
-```text
-host ── VM entry ──> guest
-  ^                    │
-  └────── VM exit ─────┘
-```
 
 ## Projects
 
