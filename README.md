@@ -11,6 +11,7 @@ Right now I’m adding Intel VMX support to gem5. The project has progressed fro
 *   [VeriVerto](https://github.com/seaver-olson/VeriVerto) | A five-stage RV32I processor in Verilog: hazards, forwarding, branches, and some experimental cache work.
 *   [archspec](https://github.com/seaver-olson/archspec) | An early C++ library for gathering structured information about a Linux machine.
 *   [PEENOS](https://github.com/seaver-olson/PEENOS) | A small bare-metal ARMv8 operating system for a Raspberry Pi 3B.
+*   [Pygame-tce](https://github.com/seaver-olson/pygame-tce) | A free-threaded version of pygame-ce for my students!
 
 ## Plants
 
